@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>changepw.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+  </head>
+  
+  <body>
+    <form name="form1" action="" method="post">
+ <table border>
+ <tr>
+<td  colspan=2 align=center>
+修改密码
+</td>
+</tr>
+<tr>
+<td>旧密码:</td>
+<td><input type=text name="oldpw"></td>
+</tr>
+<tr>
+<td>新密码:</td>
+<td><input type=password name="newpw1"></td>
+</tr>
+<tr>
+<td>
+再次输入密码：
+</td>
+<td><input type=password name="newpw2"></td>
+</tr> 
+<tr>
+<input type="button" value="提交" onclick="pass()">
+<input type="reset" value="取消">
+</tr>
+</table>
+ </form>
+ <script type="text/javascript">
+ function pass(){
+ if(document.form1.oldpw.value.length==0){
+  alert("旧密码不可为空！");
+   document.form1.oldpw.focus();
+                 return false;
+    }
+    if(document.form1.newpw1.value.length==0){
+    alert("新密码不可为空！");
+   document.form1.newpw1.focus();
+                 return false;
+    }
+     if(document.form1.oldpw.value==document.form1.newpw1.value){
+   alert("旧密码不可和新密码相等！");
+   document.form1.oldpw.focus();
+                 return false;
+    }
+     if(document.form1.newpw1.value!=document.form1.newpw2.value){
+         	alert("密码不一致，请重新输入");
+         	document.form1.newpw1.focus();
+        	return false;
+   }
+   document.form1.action="UserServlet?action=changepw";
+   document.form1.submit();
+ }
+ </script>
+  </body>
+</html>

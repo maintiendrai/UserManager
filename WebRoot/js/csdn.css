@@ -1,0 +1,85 @@
+a:link {color:#190552; text-decoration:none}
+a:active {color:#190552; text-decoration:none}
+a:visited {color:#29098A; text-decoration:none}
+a:hover {color:#29098A; text-decoration:underline}
+A:unknown
+{
+    TEXT-DECORATION: none
+}
+A.top:unknown
+{
+    TEXT-DECORATION: none
+}
+A.top:link
+{
+    COLOR: #000000;
+    TEXT-DECORATION: none;
+    face: Arial
+}
+A.top:visited
+{
+    COLOR: #000000;
+    TEXT-DECORATION: none
+}
+A.top:hover
+{
+    COLOR: red;
+    TEXT-DECORATION: none
+}
+.title1
+{
+    FONT-SIZE: 15pt;
+    LINE-HEIGHT: 130%
+}
+.title3
+{
+    FONT-SIZE: 12pt;
+    LINE-HEIGHT: 120%
+}
+.title2
+{
+    FONT-SIZE: 14px;
+    LINE-HEIGHT: 120%;
+    TEXT-DECORATION: underline
+}
+TR
+{
+    FONT-SIZE: 9pt;
+    COLOR: #000000;
+    FONT-FAMILY: Arial
+}
+TD
+{
+    FONT-SIZE: 9pt;
+    COLOR: #000000;
+    LINE-HEIGHT: 180%;
+    FONT-FAMILY: Arial
+}
+.tdmain{font-size:11pt;line-height:19pt;color:#000000}
+.td1{BORDER-RIGHT:  1px solid #aaaaaa; BORDER-TOP:  1px solid #aaaaaa; BORDER-LEFT:  1px solid #aaaaaa; BORDER-BOTTOM:  1px solid #aaaaaa}
+.td2{BORDER-RIGHT:  1px solid #006699; BORDER-TOP:  0px solid; BORDER-LEFT:  0px solid; BORDER-BOTTOM:  1px solid #006699}
+.td3{BORDER-RIGHT:  0px solid ; BORDER-TOP:  0px solid; BORDER-LEFT:  1px solid #006699; BORDER-BOTTOM:  1px solid #006699}
+.td4{BORDER-RIGHT:  1px solid #FF9933; BORDER-TOP:  1px solid #FF9933; BORDER-LEFT:  1px solid #FF9933; BORDER-BOTTOM:  1px solid #FF9933}
+.td5{BORDER-RIGHT:  0px solid #aaaaaa; BORDER-TOP:  1px solid #aaaaaa; BORDER-LEFT:  1px solid #aaaaaa; BORDER-BOTTOM:  0px solid #aaaaaa}
+.FormText
+{
+    BORDER-RIGHT: #0066cc 1px solid;
+    BORDER-TOP: #0066cc 1px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: #0066cc 1px solid;
+    CURSOR: hand;
+    LINE-HEIGHT: 150%;
+    BORDER-BOTTOM: #0066cc 1px solid;
+    BACKGROUND-COLOR: #f1f5fa
+}
+.FormText1
+{
+    BORDER-RIGHT: #0066cc 1px solid;
+    BORDER-TOP: #0066cc 1px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: #0066cc 1px solid;
+    LINE-HEIGHT: 120%;
+    BORDER-BOTTOM: #0066cc 1px solid;
+    BACKGROUND-COLOR: #f1f5fa
+}
+input {  font-size: 11px; height: 18px; font-family: "Tahoma", "Arial", "Helvetica", "sans-serif" ;  margin: 0px;  border: #666666; border-style: solid; border-width: 1px; }
